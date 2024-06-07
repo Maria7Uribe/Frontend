@@ -1,0 +1,33 @@
+.product-image.small {
+    width: 280px; /* ajusta el ancho según tus necesidades */
+    height: auto; /* mantiene la proporción de aspecto */
+  }
+  
+  .horizontal-images {
+    display: flex;
+    flex-direction: row; /* Muestra los elementos en una fila */
+  }
+  
+  .image-container {
+    margin-right: 10px; /* Espacio entre las imágenes */
+  }
+  
+  .ver-button {
+    background-color: #007bff; /* color de fondo */
+    color: white; /* color del texto */
+    border: none; /* elimina el borde */
+    padding: 5px 10px; /* padding */
+    cursor: pointer; /* muestra el cursor como puntero */
+    margin-top: 5px; /* espacio superior */
+  }
+
+  .welcome-admin {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .zapatillas-title {
+    text-align: center; /* Centra el texto */
+    margin-top: 20px; /* Espacio superior */
+}
