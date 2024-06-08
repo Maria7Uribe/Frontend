@@ -1,0 +1,91 @@
+/* Estilos para la barra de navegación */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 30px;
+  color: #000000;
+}
+
+.brand-logo {
+  font-size: 1.5rem;
+  font-weight: bold; /* Hacer que el texto de la marca sea grueso */
+}
+
+.brand-highlight {
+  color: #ff0101; /* Color de resaltado de la marca */
+}
+
+.brand-highlight-red {
+  color: #ff0000; /* Color rojo */
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+  position: relative;
+}
+
+.navbar ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Estilos para los dropdowns */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px 0px rgba(82, 80, 80, 0.2);
+  z-index: 1;
+  min-width: 160px;
+  padding: 10px;
+}
+
+.dropdown-content a {
+  display: block;
+  color: #ebebeb;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #9f9d9d;
+}
+
+/* Mostrar el dropdown al pasar el ratón */
+.navbar ul li:hover .dropdown-content {
+  display: block;
+}
+
+/* Estilos para el botón de cerrar sesión */
+.logout-button {
+  background-color: #5578d1;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.logout-button:hover {
+  background-color: #192b7d;
+}
+
+
+/* Estilos para la imagen del banner */
+.banner {
+  max-width: 85%; /* Establecer el ancho máximo al 100% */
+  height: auto; /* Mantener la proporción de aspecto */
+  display: block; /* Asegurar que la imagen sea un elemento de bloque */
+  margin-left: auto; /* Centrar la imagen en el lado izquierdo */
+  margin-right: auto; /* Centrar la imagen en el lado derecho */
+}
