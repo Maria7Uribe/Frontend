@@ -1,0 +1,140 @@
+/* Estilo general para el cuerpo */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+  background-color: white; /* Fondo blanco */
+  width: 100%; /* Ancho completo para alinear con el diseño general */
+  display: flex;
+  justify-content: space-between; /* Distribuye el contenido entre logo y menú */
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra ligera para dar profundidad */
+  position: relative; /* Relativo para usar top y centrar */
+  top: 20px; /* Baja el navbar 20px hacia abajo */
+}
+
+.brand-logo {
+  font-size: 24px; /* Tamaño de fuente para logo */
+  font-weight: bold; /* Fuente en negrita para logo */
+  color: black; /* Color de texto "Sport" */
+}
+
+.brand-highlight {
+  color: red; /* Color rojo para "Line" */
+}
+
+/* Lista de navegación sin estilo predeterminado y alineada */
+.navbar ul {
+  list-style: none; /* Eliminar puntos de lista */
+  display: flex;
+  justify-content: center; /* Centra los elementos de la lista horizontalmente */
+  padding: 0;
+  margin: 0 20px 0 0; /* Margen derecho para asegurar espacio */
+  flex-grow: 1; /* Ocupa todo el espacio disponible */
+}
+
+.navbar li {
+  padding: 10px 20px; /* Espaciado interno para hacer los enlaces más clicables */
+}
+
+.navbar li:not(:last-child)::after {
+  content: "/"; /* Agrega un slash entre elementos, excepto después del último */
+  margin-left: 10px;
+  color: #ccc; /* Color del slash */
+}
+
+.navbar a {
+  text-decoration: none; /* Sin subrayado en enlaces */
+  color: black; /* Color del texto */
+  font-size: 16px; /* Tamaño de la fuente */
+}
+
+/* Contenedor del banner y estilo de la imagen */
+.banner-container {
+  width: 100%; /* Ancho completo para contener la imagen */
+  display: flex;
+  justify-content: center; /* Centra el contenido */
+  padding: 20px 0; /* Espaciado vertical para no pegarse al navbar */
+}
+
+.banner {
+  max-width: 80%; /* Hace la imagen un 80% del ancho de su contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  position: relative; /* Para posicionar el contenido desplegable correctamente */
+  padding: 10px 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.dropdown-content {
+  display: none; /* Inicialmente oculto */
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 100px; /* Ancho fijo para las opciones */
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar li:hover .dropdown-content {
+  display: block; /* Muestra el menú cuando el usuario pasa el cursor */
+}
+/* Estilos para la barra de navegación y contenido relacionado */
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logout-button {
+  padding: 8px 16px;
+  background-color: red; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: none;
+  border-radius: 4px; /* Bordes redondeados para el botón */
+  cursor: pointer; /* Cursor en forma de mano al pasar el mouse */
+  font-weight: bold; /* Texto en negrita */
+}
+
+.logout-button:hover {
+  background-color: darkred; /* Color más oscuro al pasar el mouse */
+}
+
