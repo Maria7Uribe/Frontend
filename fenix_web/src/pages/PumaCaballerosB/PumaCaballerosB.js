@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 import './PumaCaballerosB.css'; // Importa el archivo CSS
@@ -225,7 +226,7 @@ function PumaCaballerosB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/caballeros/puma/Lifestyle Puma Suede Classic Azul-Blanco/lado derecho.png" className="card-img-top" alt="..." />
+                <img src="/img/pumacaballero1.png" className="card-img-top" alt="..." />
                   <h5>125</h5>
                   <p className="card-text" />
                   <a href="../htmlcaballerosbodeguero/puma1caballeros.html" className="btn btn-primary">ver detalles</a>
@@ -238,7 +239,7 @@ function PumaCaballerosB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/caballeros/puma/Zapatillas de training Disperse XT 3/lado derecho.jpg" className="card-img-top" alt="..." />
+                <img src="/img/pumacaballero2.png" className="card-img-top" alt="..." />
                   <h5>126</h5>
                   <p className="card-text" />
                   <a href="../htmlcaballerosbodeguero/puma2caballeros.html" className="btn btn-primary">ver detalles</a>
@@ -250,7 +251,7 @@ function PumaCaballerosB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/caballeros/puma/PUMA Tenis anchos Rebound Layup para hombre/lado derecho.png" className="card-img-top" alt="..." />
+                <img src="/img/pumacaballero3.png" className="card-img-top" alt="..." />
                   <h5>127</h5>
                   <p className="card-text" />
                   <a href="../htmlcaballerosbodeguero/puma3caballeros.html" className="btn btn-primary">ver detalles</a>
@@ -263,7 +264,7 @@ function PumaCaballerosB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/caballeros/puma/puma wild rider rollin jr/lado izquierdo.jpeg" className="card-img-top" alt="..." />
+                <img src="/img/pumacaballero4.png" className="card-img-top" alt="..." />
                   <h5>128</h5>
                   <p className="card-text" />
                   <a href="../htmlcaballerosbodeguero/puma4caballeros.html" className="btn btn-primary">ver detalles</a>

@@ -223,7 +223,7 @@ function NikeCaballerosB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/caballeros/nike/Nike Air Max 96 II “WhiteBlack” Shok Absorbing Running Shoes Casual Sneakers for Men Wome/arriba.jpeg" className="card-img-top" alt="..." />
+                <img src="/img/nikecaballero1.png" className="card-img-top" alt="..." />
                   <h5>119</h5>
                   <p className="card-text" />
                   <a href="../htmlcaballerosbodeguero/nike1caballeros.html" className="btn btn-primary">ver detalles</a>
@@ -236,7 +236,7 @@ function NikeCaballerosB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/caballeros/nike/Nike Dunk Low WMNS DD1503 100 Coast/lado izquierdo.png" className="card-img-top" alt="..." />
+                <img src="/img/nikecaballero2.png" className="card-img-top" alt="..." />
                   <h5>120</h5>
                   <p className="card-text" />
                   <a href="../htmlcaballerosbodeguero/nike2caballeros.html" className="btn btn-primary">ver detalles</a>
@@ -248,7 +248,7 @@ function NikeCaballerosB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/caballeros/nike/Nike Hombres VAPORWAFFLE SACAI - Sport Fuchsia/hacia atras mostrando parte derecha.jpeg" className="card-img-top" alt="..." />
+                <img src="/img/nikecaballero3.png" className="card-img-top" alt="..." />
                   <h5>121</h5>
                   <p className="card-text" />
                   <a href="../htmlcaballerosbodeguero/nike3caballeros.html" className="btn btn-primary">ver detalles</a>
@@ -261,7 +261,7 @@ function NikeCaballerosB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/caballeros/nike/Nike SB Dunk Low Championship Court Purple White DD1391-104/lado derecho.png" className="card-img-top" alt="..." />
+                <img src="/img/nikecaballero4.png" className="card-img-top" alt="..." />
                   <h5>122</h5>
                   <p className="card-text" />
                   <a href="../htmlcaballerosbodeguero/nike4caballeros.html" className="btn btn-primary">ver detalles</a>

@@ -223,7 +223,7 @@ function PumaDamasB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/damas/puma/enis Puma X-ray 2 Square Blanco Para Mujer/lado derecho.webp" className="card-img-top" alt="..." />
+                <img src="/img/pumadama1.png" className="card-img-top" alt="..." /> 
                   <h5>226</h5>
                   <p className="card-text" />
                   <a href="../htmldamasbodeguero/pumadama1.html" className="btn btn-primary">ver detalles</a>
@@ -235,7 +235,7 @@ function PumaDamasB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/damas/puma/PUMA Future Rider Play On - Tenis casuales para mujer, color rosa/lado izqueierdo.jpg" className="card-img-top" alt="..." />
+                <img src="/img/pumadama2.png" className="card-img-top" alt="..." /> 
                   <h5>227</h5>
                   <p className="card-text" />
                   <a href="../htmldamasbodeguero/pumadama2.html" className="btn btn-primary">ver detalles</a>
@@ -247,7 +247,7 @@ function PumaDamasB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/damas/puma/Puma Women's Free time and Sportwear/lado derecho.jpg" className="card-img-top" alt="..." />
+                <img src="/img/pumadama3.png" className="card-img-top" alt="..." /> 
                   <h5>228</h5>
                   <p className="card-text" />
                   <a href="../htmldamasbodeguero/pumadama3.html" className="btn btn-primary">ver detalles</a>
@@ -259,7 +259,7 @@ function PumaDamasB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/damas/puma/zapatillas puma carina/lado derecho.jpeg" className="card-img-top" alt="..." />
+                <img src="/img/pumadama4.png" className="card-img-top" alt="..." /> 
                   <h5>229</h5>
                   <p className="card-text" />
                   <a href="../htmldamasbodeguero/pumadama4.html" className="btn btn-primary">ver detalles</a>

@@ -226,7 +226,7 @@ function AdidasCaballerosB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/caballeros/adidas/adidas beyaz erkek spr ayakkab/lado izquierdo.jpeg" className="card-img-top" alt="..." /> 
+                <img src="/img/adidascaballero1.png" className="card-img-top" alt="..." />
                   <h5>101</h5>
                   <p className="card-text" />
                   <a href="../htmlcaballerosbodeguero/adidas1caballeros.html" className="btn btn-primary">ver detalles</a> 
@@ -239,7 +239,7 @@ function AdidasCaballerosB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/caballeros/adidas/Adidas Forum Low White Sneakers/lado derecho.png" className="card-img-top" alt="..." />
+                <img src="/img/adidascaballero2.png" className="card-img-top" alt="..." />
                   <h5>102</h5>
                   <p className="card-text" />
                   <a href="../htmlcaballerosbodeguero/adidas2caballeros.html" className="btn btn-primary">ver detalles</a>
@@ -252,7 +252,7 @@ function AdidasCaballerosB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/caballeros/adidas/adidas neo Grand Court '' Grey Three/lado derecho.png" className="card-img-top" alt="..." />
+                <img src="/img/adidascaballero3.png" className="card-img-top" alt="..." />
                   <h5>103</h5>
                   <p className="card-text" />
                   <a href="/Adidascaballeros3"className="btn btn-primary">ver detalles</a>
@@ -265,7 +265,7 @@ function AdidasCaballerosB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/caballeros/adidas/BOTAS FORUM MID/lado derecho.png" className="card-img-top" alt="..." />
+                <img src="/img/adidascaballero4.png" className="card-img-top" alt="..." />
                   <h5>104</h5>
                   <p className="card-text" />
                   <a href="../htmlcaballerosbodeguero/adidas6caballeros.html" className="btn btn-primary">ver detalles</a>

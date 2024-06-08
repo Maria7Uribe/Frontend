@@ -1,14 +1,20 @@
 import React, { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom'; // Importa Link y useLocation desde react-router-dom
 import './IndexJefe.css'; // Importa el archivo CSS externo
 
 // Componente principal
 function IndexJefe() {
-  // Estado para controlar la visibilidad del menú desplegable de productos
-  const [showProductos, setShowProductos] = useState(false);
+  const location = useLocation(); // Obtiene la ubicación actual de la página
+  
+  // Función para determinar si la ruta actual es la página de zapatillas
+  const isZapatillasPage = location.pathname === '/zapatillas';
 
-  // Función para alternar la visibilidad del menú desplegable de productos
-  const toggleProductos = () => {
-    setShowProductos(!showProductos);
+  // Función para determinar la ruta a mostrar cuando el usuario hace clic en el enlace de inicio
+  const getHomeLink = () => {
+    if (isZapatillasPage) {
+      return '/bodega'; // Si está en la página de zapatillas, redirige a la página de bodega
+    }
+    return '/'; // De lo contrario, redirige a la página de inicio
   };
 
   return (
@@ -35,14 +41,15 @@ function IndexJefe() {
               <h3>Usuarios</h3>
             </a>
             {/* Enlace a la página de Productos */}
-            <a href="/Marcasjefe">
+            <Link to="/Marcasjefe">
               <span className="material-icons-sharp">inventory</span>  
-              <h3>Marcas Bodega</h3>
-            </a>
-            <a href="/">
+              <h3>Marcas jefe</h3>
+            </Link>
+            {/* Enlace a la página de inicio */}
+            <Link to={getHomeLink()}>
               <span className="material-icons-sharp">logout</span>
               <h3>Cerrar sesión</h3>
-            </a>
+            </Link>
           </div>
         </aside>
         <div className="welcome-admin">

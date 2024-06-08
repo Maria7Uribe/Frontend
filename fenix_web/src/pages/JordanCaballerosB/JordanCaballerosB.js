@@ -213,7 +213,7 @@ function JordanCaballerosB() {
                         <div className="col-sm-6 mb-3 mb-sm-0">
                             <div className="card">
                                 <div className="card-body">
-                                    <img src="../img/caballeros/jordan/Air Jordan 1 Mid (Lakers)/lado derecho.jpg" className="card-img-top" alt="..." />
+                                <img src="/img/jordancaballero1.png" className="card-img-top" alt="..." />
                                     <h5>113</h5>
                                     <p className="card-text"></p>
                                     <a href="../htmlcaballerosbodeguero/jordan1caballeros.html" className="btn btn-primary">ver detalles</a>
@@ -224,7 +224,7 @@ function JordanCaballerosB() {
                         <div className="col-sm-6 mb-3 mb-sm-0">
                             <div className="card">
                                 <div className="card-body">
-                                    <img src="../img/caballeros/jordan/AIR JORDAN 1 MID SE 'CREMA CHOCOLATE OSCURO'/lado izquierdo.jpg" className="card-img-top" alt="..." />
+                                <img src="/img/jordancaballero2.png" className="card-img-top" alt="..." />
                                     <h5>114</h5>
                                     <p className="card-text"></p>
                                     <a href="../htmlcaballerosbodeguero/jordan2caballeros.html" className="btn btn-primary">ver detalles</a>
@@ -235,7 +235,7 @@ function JordanCaballerosB() {
                         <div className="col-sm-6 mb-3 mb-sm-0">
                             <div className="card">
                                 <div className="card-body">
-                                    <img src="../img/caballeros/jordan/Jordan 4 Retro Lighting Yellow, amarillo relámpago/alfrente.jpeg" className="card-img-top" alt="..." />
+                                <img src="/img/jordancaballero3.png" className="card-img-top" alt="..." />
                                     <h5>115</h5>
                                     <p className="card-text"></p>
                                     <a href="../htmlcaballerosbodeguero/jordan3caballeros.html" className="btn btn-primary">ver detalles</a>
@@ -246,7 +246,7 @@ function JordanCaballerosB() {
                         <div className="col-sm-6 mb-3 mb-sm-0">
                             <div className="card">
                                 <div className="card-body">
-                                    <img src="../img/caballeros/jordan/Jordan Air Jordan 1 Retro High OG DC3481 900 J Balvin para hombre/alfrente.jpeg" className="card-img-top" alt="..." />
+                                <img src="/img/jordancaballero4.png" className="card-img-top" alt="..." />
                                     <h5>116</h5>
                                     <p className="card-text"></p>
                                     <a href="../htmlcaballerosbodeguero/jordan4caballeros.html" className="btn btn-primary">ver detalles</a>

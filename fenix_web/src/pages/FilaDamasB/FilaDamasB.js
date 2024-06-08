@@ -222,7 +222,7 @@ function FilaDamasB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/damas/fila/FILA FILARAY TRACER (White)/lado izquierdo.jpg" className="card-img-top" alt="..." />
+                <img src="/img/filadama1.png" className="card-img-top" alt="..." /> 
                   <h5>207</h5>
                   <p className="card-text" />
                   <a href="../htmldamasbodeguero/filadama1.html" className="btn btn-primary">ver detalles</a>
@@ -235,7 +235,7 @@ function FilaDamasB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/damas/fila/Tenis Lifestyle Rosado-Blanco- Azul Fila Euskadi/lado derecho.jpeg" className="card-img-top" alt="..." />
+                <img src="/img/filadama2.png" className="card-img-top" alt="..." /> 
                   <h5>208</h5>
                   <p className="card-text" />
                   <a href="/Filadamas2" className="btn btn-primary">ver detalles</a>
@@ -247,7 +247,7 @@ function FilaDamasB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/damas/fila/Fila Ray Tracer - Zapatillas de deporte para niño, color gris/al lado derecho.jpg" className="card-img-top" alt="..." />
+                <img src="/img/filadama3.png" className="card-img-top" alt="..." /> 
                   <h5>209</h5>
                   <p className="card-text" />
                   <a href="../htmldamasbodeguero/filadama3.html" className="btn btn-primary">ver detalles</a>
@@ -260,7 +260,7 @@ function FilaDamasB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/damas/fila/fila run 1 blue/lado izquierdo.jpeg" className="card-img-top" alt="..." />
+                <img src="/img/filadama4.png" className="card-img-top" alt="..." /> 
                   <h5>210</h5>
                   <p className="card-text" />
                   <a href="../htmldamasbodeguero/filadama4.html" className="btn btn-primary">ver detalles</a>

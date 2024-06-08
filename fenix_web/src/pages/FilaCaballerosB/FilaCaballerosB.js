@@ -224,7 +224,7 @@ function FilaCaballerosB() {
            <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/caballeros/fila/fila SKUskshoes25210608804/lado izquierdo.jpeg" className="card-img-top" alt="..." />
+                <img src="/img/filacaballero1.png" className="card-img-top" alt="..." />
                   <h5>107</h5>
                   <a href="../htmlcaballerosbodeguero/fila2caballeros.html" className="btn btn-primary">ver detalles</a>
                 </div>
@@ -236,7 +236,7 @@ function FilaCaballerosB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/caballeros/fila/fila Sandals, Sneakers/lado derecho.png" className="card-img-top" alt="..." />
+                <img src="/img/filacaballero2.png" className="card-img-top" alt="..." />
                   <h5>108</h5>
                   <a href="../htmlcaballerosbodeguero/fila1caballeros.html" className="btn btn-primary">ver detalles</a>
                 </div>
@@ -247,7 +247,7 @@ function FilaCaballerosB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/caballeros/fila/Fila Tenis Oakmont TR para hombre/atras.jpeg" className="card-img-top" alt="..." />
+                <img src="/img/filacaballero3.png" className="card-img-top" alt="..." />
                   <h5>109</h5>
                   <a href="../htmlcaballerosbodeguero/fila3caballeros.html" className="btn btn-primary">ver detalles</a>
                 </div>
@@ -259,7 +259,7 @@ function FilaCaballerosB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/caballeros/fila/Tenis Lifestyle Azul-Blanco Fila Yogi/lado derecho.png" className="card-img-top" alt="..." />
+                <img src="/img/filacaballero4.png" className="card-img-top" alt="..." />
                   <h5>110</h5>
                   <a href="../htmlcaballerosbodeguero/fila4caballeros.html" className="btn btn-primary">ver detalles</a>
                 </div>

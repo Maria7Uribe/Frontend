@@ -218,7 +218,7 @@ function JordanDamasB() {
                         <div className="col-sm-6 mb-3 mb-sm-0">
                             <div className="card">
                                 <div className="card-body">
-                                    <img src="../img/damas/jordan/Air Jordan 1 Mid “Strawberries  Cream”/arriba.jpeg" className="card-img-top" alt="..." />
+                                <img src="/img/jordandama1.png" className="card-img-top" alt="..." /> 
                                     <h5>213</h5>
                                     <p className="card-text"></p>
                                     <a href="../htmldamasbodeguero/jordandama1.html" className="btn btn-primary">ver detalles</a>
@@ -229,7 +229,7 @@ function JordanDamasB() {
                         <div className="col-sm-6 mb-3 mb-sm-0">
                             <div className="card">
                                 <div className="card-body">
-                                    <img src="../img/damas/jordan/Deporte Tenis Nike Air Jordan 11 concord Con Manguera AltaBlancoNegro Para Hombres Y Mujeres/lado derecho.jpeg" className="card-img-top" alt="..." />
+                                <img src="/img/jordandama2.png" className="card-img-top" alt="..." />
                                     <h5>214</h5>
                                     <p className="card-text"></p>
                                     <a href="../htmldamasbodeguero/jordandama2.html" className="btn btn-primary">ver detalles</a>
@@ -240,7 +240,7 @@ function JordanDamasB() {
                         <div className="col-sm-6 mb-3 mb-sm-0">
                             <div className="card">
                                 <div className="card-body">
-                                    <img src="../img/damas/jordan/jordan Nike - Tenis de baloncesto unisex, morado/lado derecho.jpeg" className="card-img-top" alt="..." />
+                                <img src="/img/jordandama3.png" className="card-img-top" alt="..." />
                                     <h5>215</h5>
                                     <p className="card-text"></p>
                                     <a href="../htmldamasbodeguero/jordandama4.html" className="btn btn-primary">ver detalles</a>
@@ -251,7 +251,7 @@ function JordanDamasB() {
                         <div className="col-sm-6 mb-3 mb-sm-0">
                             <div className="card">
                                 <div className="card-body">
-                                    <img src="../img/damas/jordan/Jordan 1 Mid SE Bright Citrus Bright CitrusBlanco CZ0774 800 para mujerAzul francésEmber mágico 8.5 US/lado derecho.jpeg" className="card-img-top" alt="..." />
+                                <img src="/img/jordandama4.png" className="card-img-top" alt="..." />
                                     <h5>216</h5>
                                     <p className="card-text"></p>
                                     <a href="../htmldamasbodeguero/jordandama3.html" className="btn btn-primary">ver detalles</a>

@@ -334,7 +334,7 @@ function AdidasDamasB() {
                                 <div className="col-sm-6 mb-3 mb-sm-0">
                                     <div className="card">
                                         <div className="card-body">
-                                            <img src="../img/damas/adidas/ADIDAS FORUM BLANCA CON ROSADO/lado izquierdo.jpeg" className="card-img-top" alt="..." />
+                                        <img src="/img/adidasdamas1.png" className="card-img-top" alt="..." />
                                             <h5>201</h5>
                                             <p className="card-text" />
                                             <a href="/adidasdamas1" className="btn btn-primary">Ver detalles</a>
@@ -347,7 +347,7 @@ function AdidasDamasB() {
                                 <div className="col-sm-6 mb-3 mb-sm-0">
                                     <div className="card">
                                         <div className="card-body">
-                                            <img src="../img/damas/adidas/adidas Forum Zapatos bajos para mujer, color rosa, talla/alfrente.jpeg" className="card-img-top" alt="..." />
+                                        <img src="/img/adidasdamas2.png" className="card-img-top" alt="..." />
                                             <h5>202</h5>
                                             <p className="card-text" />
                                             <a href="../htmldamasbodeguero/adidasdama2.html" className="btn btn-primary">Ver detalles</a>
@@ -360,7 +360,7 @@ function AdidasDamasB() {
                                 <div className="col-sm-6 mb-3 mb-sm-0">
                                     <div className="card">
                                         <div className="card-body">
-                                            <img src="../img/damas/adidas/adidas hzywanshi/lado derecho.jpeg" className="card-img-top" alt="..." />
+                                        <img src="/img/adidasdamas3.png" className="card-img-top" alt="..." />
                                             <h5>203</h5>
                                             <p className="card-text" />
                                             <a href="../htmldamasbodeguero/adidasdama3.html" className="btn btn-primary">Ver detalles</a>
@@ -373,7 +373,7 @@ function AdidasDamasB() {
                                 <div className="col-sm-6 mb-3 mb-sm-0">
                                     <div className="card">
                                         <div className="card-body">
-                                            <img src="../img/damas/adidas/Adidas Unisex-Adult Pureboost 22 Running Shoe/lado izquierdo.jpeg" className="card-img-top" alt="..." />
+                                        <img src="/img/adidasdamas4.png" className="card-img-top" alt="..." />
                                             <h5>204</h5>
                                             <p className="card-text" />
                                             <a href="../htmldamasbodeguero/adidasdama4.html" className="btn btn-primary">Ver detalles</a>

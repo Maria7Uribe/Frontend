@@ -221,7 +221,7 @@ function NikeDamasB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/damas/nike/DUNK LOW PRO SB 'TWEED/lado derecho.jpeg" className="card-img-top" alt="..." />
+                <img src="/img/nikedama1.png" className="card-img-top" alt="..." />
                   <h5>220</h5>
                   <p className="card-text" />
                   <a href="../htmldamasbodeguero/nikedama1.html" className="btn btn-primary">ver detalles</a>
@@ -233,7 +233,7 @@ function NikeDamasB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/damas/nike/Nike Air Force 1 Low Utility/lado derecho.jpeg" className="card-img-top" alt="..." />
+                <img src="/img/nikedama2.png" className="card-img-top" alt="..." />
                   <h5>221</h5>
                   <p className="card-text" />
                   <a href="../htmldamasbodeguero/nikedama2.html" className="btn btn-primary">ver detalles</a>
@@ -245,7 +245,7 @@ function NikeDamasB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/damas/nike/Nike Air Max 90 Essential AJ1285-103 zapatillas/lado izquierdo.jpeg" className="card-img-top" alt="..." />
+                <img src="/img/nikedama3.png" className="card-img-top" alt="..." />
                   <h5>222</h5>
                   <p className="card-text" />
                   <a href="../htmldamasbodeguero/nikedama3.html" className="btn btn-primary">ver detalles</a>
@@ -257,7 +257,7 @@ function NikeDamasB() {
             <div className="col-sm-6 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body">
-                  <img src="../img/damas/nike/Nike mens Retro/lado izquierdo.jpeg" className="card-img-top" alt="..." />
+                <img src="/img/nikedama4.png" className="card-img-top" alt="..." />
                   <h5>223</h5>
                   <p className="card-text" />
                   <a href="../htmldamasbodeguero/nikedama4.html" className="btn btn-primary">ver detalles</a>

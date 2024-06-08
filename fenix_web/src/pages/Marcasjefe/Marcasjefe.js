@@ -62,23 +62,23 @@ function Marcasjefe() {
                 <div className="horizontal-images">
                   <div className="image-container">
                     <img className="product-image small" src="../img/adidasmujer.jpg" alt="Imagen 1" />
-                    <a href="/adidasdamas"><button className="ver-button">Ver Zapatillas</button></a>
+                    <a href="/adidasdamasj"><button className="ver-button">Ver Zapatillas</button></a>
                   </div>
                   <div className="image-container">
                     <img className="product-image small" src="../img/nikemujer.png" alt="Imagen 2" />
-                    <a href="/nikedamas"><button className="ver-button">Ver Zapatillas</button></a>
+                    <a href="/nikedamasj"><button className="ver-button">Ver Zapatillas</button></a>
                   </div>
                   <div className="image-container">
                     <img className="product-image small" src="../img/filamujer.jpg" alt="Imagen 3" />
-                    <a href="/filadamas"><button className="ver-button">Ver Zapatillas</button></a>
+                    <a href="/filadamasj"><button className="ver-button">Ver Zapatillas</button></a>
                   </div>
                   <div className="image-container">
                     <img className="product-image small" src="../img/pumadama.webp" alt="Imagen 4" />
-                    <a href="/pumadamas"><button className="ver-button">Ver Zapatillas</button></a>
+                    <a href="/pumadamasj"><button className="ver-button">Ver Zapatillas</button></a>
                   </div>
                   <div className="image-container">
                     <img className="product-image small" src="../img/jordan.png" alt="Imagen 3" />
-                    <a href="/jordandamas"><button className="ver-button">Ver Zapatillas</button></a>
+                    <a href="/jordandamasj"><button className="ver-button">Ver Zapatillas</button></a>
                   </div>
 
                 </div>
@@ -90,23 +90,23 @@ function Marcasjefe() {
                 <div className="horizontal-images">
                   <div className="image-container">
                     <img className="product-image small" src="../img/adidashombre.jpg" alt="Imagen 1" />
-                    <a href="/adidascaballeros"><button className="ver-button">Ver Zapatillas</button></a>
+                    <a href="/adidascaballerosj"><button className="ver-button">Ver Zapatillas</button></a>
                   </div>
                   <div className="image-container">
                     <img className="product-image small" src="../img/nikehombre.png" alt="Imagen 2" />
-                    <a href="/nikecaballeros"><button className="ver-button">Ver Zapatillas</button></a>
+                    <a href="/nikecaballerosj"><button className="ver-button">Ver Zapatillas</button></a>
                   </div>
                   <div className="image-container">
                     <img className="product-image small" src="../img/filahombre.png" alt="Imagen 3" />
-                    <a href="/filacaballeros"><button className="ver-button">Ver Zapatillas</button></a>
+                    <a href="/filacaballerosj"><button className="ver-button">Ver Zapatillas</button></a>
                   </div>
                   <div className="image-container">
                     <img className="product-image small" src="../img/pumahombre.jpg" alt="Imagen 4" />
-                    <a href="/pumacaballeros"><button className="ver-button">Ver Zapatillas</button></a>
+                    <a href="/pumacaballerosj"><button className="ver-button">Ver Zapatillas</button></a>
                   </div>
                   <div className="image-container">
                     <img className="product-image small" src="../img/jordan.png" alt="Imagen 4" />
-                    <a href="/jordancaballeros"><button className="ver-button">Ver Zapatillas</button></a>
+                    <a href="/jordancaballerosj"><button className="ver-button">Ver Zapatillas</button></a>
                   </div>
                 </div>
               </div>
