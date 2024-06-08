@@ -1,0 +1,79 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url("../Assents/fondo.png") no-repeat;
+  background-size: cover; /* Para cubrir todo el contenedor */
+}
+
+form {
+  background-color: rgba(232, 228, 228, 0.18); /* Ajustar opacidad según preferencia */
+  padding: 50px; /* Aumentar el padding para hacer el formulario más grande */
+  border-radius: 20px; /* Aumentar el radio de borde para hacerlo más redondeado */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Aumentar el tamaño de la sombra */
+  max-width: 500px; /* Limitar el ancho máximo del formulario */
+  width: 90%; /* Hacer que el formulario ocupe el 90% del ancho disponible */
+  margin-bottom: 30px; /* Agregar margen inferior para separar el enlace de regreso */
+  margin: 0 auto; /* Centrar el formulario horizontalmente */
+}
+
+.input-box {
+  margin-bottom: 30px; /* Aumentar el margen inferior para separar más los campos */
+}
+
+.input-box input {
+  width: 100%;
+  padding: 15px; /* Aumentar el padding para hacer los campos de entrada más grandes */
+  font-size: 18px; /* Aumentar el tamaño de la fuente */
+  border-radius: 8px; /* Aumentar el radio de borde para hacer los campos más redondeados */
+  border: 2px solid #ccc; /* Aumentar el grosor del borde */
+  outline: none;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  color: #000000;
+}
+
+.remember-forgot {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px; /* Aumentar el margen inferior para separar más este elemento */
+  color: #000000; /* Cambiar el color del texto a negro */
+}
+
+.forgot-password {
+  text-align: center; /* Centrar el texto */
+  margin-top: 10px; /* Agregar espacio superior */
+  color: #000000;
+}
+
+button[type="submit"] {
+  padding: 15px 20px; /* Aumentar el padding del botón */
+  font-size: 18px; /* Aumentar el tamaño de la fuente del botón */
+  border-radius: 8px; /* Aumentar el radio de borde para hacerlo más redondeado */
+  border: none;
+  background-color: #0964f675;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%; /* Hacer que el botón ocupe todo el ancho */
+}
+
+button[type="submit"]:hover {
+  background-color: #48907b9c;
+}
+
+.return-link {
+  display: block;
+  text-align: center;
+  color: #020202cd;
+  text-decoration: none;
+  font-size: 20px; /* Aumentar el tamaño de la fuente del enlace de regreso */
+  margin-top: 20px; /* Agregar espacio superior */
+}
