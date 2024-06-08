@@ -32,9 +32,9 @@ function IndexBodega() {
             {/* Botón de Usuarios */}
 
             {/* Enlace a la página de Productos */}
-            <a href="/productosbodega">
+            <a href="/marcasbodega">
               <span className="material-icons-sharp">inventory</span>  
-              <h3>Productos</h3>
+              <h3>Marcas Bodega</h3>
             </a>
             <a href="/">
               <span className="material-icons-sharp">logout</span>
@@ -43,7 +43,7 @@ function IndexBodega() {
           </div>
         </aside>
         <div className="welcome-admin">
-          <h3>Bienvenido, Administrador</h3>
+          <h3>Bienvenido, Bodeguero</h3>
         </div>
       </div>
     </div>

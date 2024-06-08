@@ -174,48 +174,43 @@ function Agregar() {
                 </aside>
                 {/* Fin de la barra lateral */}
                 <main>
-    
     <form onSubmit={handleSubmit} className="form-container">
         <div className="form-column">
-            <label htmlFor="PK_fk_Id_tdoc">Tipo de Documento:</label>
-            <input type="text" name="PK_fk_Id_tdoc" value={nuevoUsuario.PK_fk_Id_tdoc} onChange={handleChange} />
+            <label htmlFor="tipoDocumento">Tipo de Documento:</label>
+            <input type="text" name="tipoDocumento" value={nuevoUsuario.tipoDocumento} onChange={handleChange} />
 
-            <label htmlFor="Primer_nombre">Primer Nombre:</label>
-            <input type="text" name="Primer_nombre" value={nuevoUsuario.Primer_nombre} onChange={handleChange} />
+            <label htmlFor="primerNombre">Primer Nombre:</label>
+            <input type="text" name="primerNombre" value={nuevoUsuario.primerNombre} onChange={handleChange} />
 
-            <label htmlFor="Primer_apellido">Primer Apellido:</label>
-            <input type="text" name="Primer_apellido" value={nuevoUsuario.Primer_apellido} onChange={handleChange} />
+            <label htmlFor="primerApellido">Primer Apellido:</label>
+            <input type="text" name="primerApellido" value={nuevoUsuario.primerApellido} onChange={handleChange} />
 
-            <label htmlFor="Telefono_contacto">Teléfono de Contacto:</label>
-            <input type="text" name="Telefono_contacto" value={nuevoUsuario.Telefono_contacto} onChange={handleChange} />
+            <label htmlFor="telefonoContacto">Teléfono de Contacto:</label>
+            <input type="text" name="telefonoContacto" value={nuevoUsuario.telefonoContacto} onChange={handleChange} />
 
-            <label htmlFor="Pk_fk_Id_Cod_rol">Rol:</label>
-            <input type="text" name="Pk_fk_Id_Cod_rol" value={nuevoUsuario.Pk_fk_Id_Cod_rol} onChange={handleChange} />
+            <label htmlFor="estadoUsuario">Estado de Usuario:</label>
+            <input type="text" name="estadoUsuario" value={nuevoUsuario.estadoUsuario} onChange={handleChange} />
 
-            <label htmlFor="Estado_usuario">Estado de Usuario:</label>
-            <input type="text" name="Estado_usuario" value={nuevoUsuario.Estado_usuario} onChange={handleChange} />
-        </div>
+            <label htmlFor="numeroDocumento">Número de Documento:</label>
+            <input type="text" name="numeroDocumento" value={nuevoUsuario.numeroDocumento} onChange={handleChange} />
 
-        <div className="form-column">
-            <label htmlFor="Numero_documento">Número de Documento:</label>
-            <input type="text" name="Numero_documento" value={nuevoUsuario.Numero_documento} onChange={handleChange} />
+            <label htmlFor="segundoNombre">Segundo Nombre:</label>
+            <input type="text" name="segundoNombre" value={nuevoUsuario.segundoNombre} onChange={handleChange} />
 
-            <label htmlFor="Segundo_nombre">Segundo Nombre:</label>
-            <input type="text" name="Segundo_nombre" value={nuevoUsuario.Segundo_nombre} onChange={handleChange} />
+            <label htmlFor="segundoApellido">Segundo Apellido:</label>
+            <input type="text" name="segundoApellido" value={nuevoUsuario.segundoApellido} onChange={handleChange} />
 
-            <label htmlFor="Segundo_apellido">Segundo Apellido:</label>
-            <input type="text" name="Segundo_apellido" value={nuevoUsuario.Segundo_apellido} onChange={handleChange} />
+            <label htmlFor="email">Email:</label>
+            <input type="email" name="email" value={nuevoUsuario.email} onChange={handleChange} />
 
-            <label htmlFor="Email">Email:</label>
-            <input type="email" name="Email" value={nuevoUsuario.Email} onChange={handleChange} />
-
-            <label htmlFor="Clave">Clave:</label>
-            <input type="password" name="Clave" value={nuevoUsuario.Clave} onChange={handleChange} />
+            <label htmlFor="clave">Clave:</label>
+            <input type="password" name="clave" value={nuevoUsuario.clave} onChange={handleChange} />
         </div>
 
         <button type="submit">Crear Usuario</button>
     </form>
 </main>
+
             </div>
         </div>
     );

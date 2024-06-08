@@ -35,9 +35,9 @@ function IndexJefe() {
               <h3>Usuarios</h3>
             </a>
             {/* Enlace a la página de Productos */}
-            <a href="/productosjefe">
+            <a href="/Marcasjefe">
               <span className="material-icons-sharp">inventory</span>  
-              <h3>Productos</h3>
+              <h3>Marcas Bodega</h3>
             </a>
             <a href="/">
               <span className="material-icons-sharp">logout</span>
