@@ -1,0 +1,58 @@
+.bodega-card-container,
+.locales-card-container,
+.marcas-producto-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 30px;
+}
+
+.bodega-card,
+.locales-card,
+.marcas-producto-card {
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 22px;
+  width: 320px;
+  transition: transform 0.3s ease;
+}
+
+.bodega-card:hover,
+.locales-card:hover,
+.marcas-producto-card:hover {
+  transform: translateY(-10px);
+}
+
+.bodega-card h3,
+.locales-card h3,
+.marcas-producto-card h3 {
+  color: #000000;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: bold; /* Agregado para hacer el texto antes de los dos puntos en negrita */
+}
+
+.bodega-card p,
+.locales-card p,
+.marcas-producto-card p {
+  color: #000000;
+  font-size: 18px;
+  margin-bottom: -0px;
+}
+
+.bodega-card a,
+.locales-card a,
+.marcas-producto-card a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bodega-card a:hover,
+.locales-card a:hover,
+.marcas-producto-card a:hover {
+  text-decoration: underline;
+}
