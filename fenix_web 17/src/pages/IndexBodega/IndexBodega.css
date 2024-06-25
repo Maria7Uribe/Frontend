@@ -1,0 +1,148 @@
+/* Estilos para la barra de navegación */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 5%; /* Cambiado para que el padding se ajuste mejor en dispositivos más pequeños */
+  color: #000000;
+}
+
+.brand-logo {
+  font-size: 1.5rem;
+  font-weight: bold; /* Hacer que el texto de la marca sea grueso */
+}
+
+.brand-highlight {
+  color: #ff0101; /* Color de resaltado de la marca */
+}
+
+.brand-highlight-red {
+  color: #ff0000; /* Color rojo */
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin-right: 10px; /* Reducido el espacio entre elementos */
+  position: relative;
+}
+
+.navbar ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Estilos para los dropdowns */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px 0px rgba(82, 80, 80, 0.2);
+  z-index: 1;
+  min-width: 160px;
+  padding: 10px;
+}
+
+.dropdown-content a {
+  display: block;
+  color: #ebebeb;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #9f9d9d;
+}
+
+/* Mostrar el dropdown al pasar el ratón */
+.navbar ul li:hover .dropdown-content {
+  display: block;
+}
+
+/* Estilos para el botón de cerrar sesión */
+.logout-button {
+  background-color: #5578d1;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.logout-button:hover {
+  background-color: #192b7d;
+}
+
+/* Estilos para la imagen del banner */
+.banner {
+  max-width: 100%; /* Cambiado para que la imagen se ajuste al ancho del contenedor */
+  height: auto; /* Mantener la proporción de aspecto */
+  display: block; /* Asegurar que la imagen sea un elemento de bloque */
+  margin: 0 auto; /* Centrar la imagen horizontalmente */
+}
+
+/* Reglas de CSS para pantallas más pequeñas */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Cambiado a dirección de columna en dispositivos más pequeños */
+    padding: 15px; /* Reducido el padding en dispositivos más pequeños */
+  }
+
+  .navbar ul li {
+    margin-right: 0; /* Eliminado el margen derecho en dispositivos más pequeños */
+    margin-bottom: 10px; /* Agregado margen inferior entre elementos en dispositivos más pequeños */
+  }
+
+  .logout-button {
+    margin-top: 15px; /* Agregado margen superior al botón de cerrar sesión en dispositivos más pequeños */
+  }
+}
+
+.banner-container {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Ajusta según tu diseño */
+
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  color: rgb(111, 75, 161);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.nav-button {
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  background-color: #ccc;
+}
+
+.nav-button.active {
+  background-color: #666;
+}
